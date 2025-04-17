@@ -1,40 +1,41 @@
-let character: string = 'mario';
-let age: number;
-let isLoggedIn: boolean;
+namespace Lesson5Sandbox {
+  let character: string = 'mario';
+  let age: number;
+  let isLoggedIn: boolean;
 
-// age = 'luigi';
-age = 30;
+  // age = 'luigi';
+  age = 30;
 
-// isLoggedIn = 25;
-isLoggedIn = true;
+  // isLoggedIn = 25;
+  isLoggedIn = true;
 
-// arrays
-let ninjas: string[] = [];
+  // arrays
+  let ninjas: string[] = [];
 
-ninjas.push('ryu');
-ninjas.push('chun-li');
-console.log(ninjas);
+  ninjas.push('ryu');
+  ninjas.push('chun-li');
+  console.log(ninjas);
 
-// union types
-let mixed: (string|number|boolean)[] = [];
-mixed.push('hello');
-mixed.push(false);
-mixed.push(20);
-console.log(mixed);
+  // union types
+  let mixed: (string|number|boolean)[] = [];
+  mixed.push('hello');
+  mixed.push(false);
+  mixed.push(20);
+  console.log(mixed);
 
-let uid: string|number;
-uid = 123;
-uid = '456';
+  let uid: string|number;
+  uid = 123;
+  uid = '456';
 
+  // objects
+  let ninjaOne: object;
+  ninjaOne = { name: 'yoshi', age: 30 };
 
-// objects
-let ninjaOne: object;
-ninjaOne = { name: 'yoshi', age: 30 };
-
-let ninjaTwo: {
-  name: string,
-  age: number,
-  beltColour: string
-};
-ninjaTwo = { name: 'ken', age: 20, beltColour: 'black' };
-console.log(ninjaTwo);
+  let ninjaTwo: {
+    name: string,
+    age: number,
+    beltColour: string
+  };
+  ninjaTwo = { name: 'ken', age: 20, beltColour: 'black' };
+  console.log(ninjaTwo);
+}

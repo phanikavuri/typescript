@@ -1,4 +1,3 @@
-namespace Lesson5Sandbox {
   let character: string = 'mario';
   let age: number;
   let isLoggedIn: boolean;
